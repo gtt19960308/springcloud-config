@@ -1,4 +1,3 @@
-
 server:
   port: 8083
 eureka:
@@ -8,3 +7,4 @@ eureka:
 mybatis:
   mapper-locations: classpath:mybatis/mapper/*.xml
   config-locations: classpath:mybatis/confg.xml
+
