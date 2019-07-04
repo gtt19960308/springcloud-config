@@ -1,11 +1,5 @@
 server:
   port: 8103
-spring:
- datasource:
-    url: jdbc:mysql://localhost:3306/1811?useUnicode=true&characterEncoding=UTF-8&zeroDateTimeBehavior=convertToNull&serverTimezone=UTC
-    username: root
-    password: gtt
-    driver-class-name: com.mysql.cj.jdbc.Driver
 eureka:
   client:
     serviceUrl:
