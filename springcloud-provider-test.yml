@@ -6,11 +6,6 @@ datasource:
 mybatis:
   mapper-locations: classpath:mybatis/mapper/*.xml
   config-locations: classpath:mybatis/confg.xml
-eureka:
-  instance:
-    prefer-ip-address: true
-  client:
-    serviceUrl:
-      defaultZone: http://localhost:8760/eureka/
+
 server:
   port: 8002
